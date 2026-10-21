@@ -84,9 +84,9 @@ class Obstaculo {
 
 function inicializarJogo() {
     score = 0;
-    velocidade = 6;
+    velocidade = 20;
     obstaculos = [];
-    dino.y = 200;
+    dino.y = 2000;
     dino.velocidadeY = 0;
     jogoRodando = true;
 }
