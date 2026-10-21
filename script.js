@@ -1,6 +1,5 @@
 
-// Garante que o código rode após a página carregar
-document.addEventListener("DOMContentLoaded", () => {
+// Garante que o código rode após a página carregardocument.addEventListener("DOMContentLoaded", () => {
   // CONFIGURAÇÃO DA ABA: Altere '#aba-jogos' para o ID ou ID da seção da sua aba de jogos.
   // O jogo só vai inicializar se esse elemento existir na página.
   const abaJogos = document.querySelector("#aba-jogos");
