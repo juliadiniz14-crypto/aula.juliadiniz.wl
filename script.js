@@ -27,7 +27,7 @@ const dino = {
     velocidadeY: 0,
     puloForca: 12,
     noChao: false,
-    cor: '#2ecc71', // Cor verde para o personagem
+    cor: '#244934', // Cor verde para o personagem
     
     desenhar() {
         ctx.fillStyle = this.cor;
@@ -67,7 +67,11 @@ class Obstaculo {
         this.largura = 20 + Math.random() * 20; // larguras variadas
         this.altura = 30 + Math.random() * 40;  // alturas variadas
         this.y = canvas.height - this.altura - 20;
+<<<<<<< HEAD
+        this.cor = '#080808'; // Cor vermelha para perigo
+=======
         this.cor = '#080505'; // Cor vermelha para perigo
+>>>>>>> e76d622d11a650dcc3481f316bd01097b5e366fa
     }
     
     desenhar() {
@@ -84,7 +88,7 @@ class Obstaculo {
 
 function inicializarJogo() {
     score = 0;
-    velocidade = 20;
+    velocidade = 10;
     obstaculos = [];
     dino.y = 2000;
     dino.velocidadeY = 10;
@@ -111,7 +115,7 @@ function loop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     // Desenha a linha do chão
-    ctx.strokeStyle = '#7f8c8d';
+    ctx.strokeStyle = '#1a1b1b';
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.moveTo(0, canvas.height - 20);
@@ -160,7 +164,11 @@ function loop() {
         ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         
-        ctx.fillStyle = '#726363';
+<<<<<<< HEAD
+        ctx.fillStyle = '#201b1b';
+=======
+        ctx.fillStyle = '#0c0b0b';
+>>>>>>> e76d622d11a650dcc3481f316bd01097b5e366fa
         ctx.font = '24px sans-serif';
         ctx.textAlign = 'center';
         
