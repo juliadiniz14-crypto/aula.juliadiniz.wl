@@ -87,7 +87,7 @@ function inicializarJogo() {
     velocidade = 20;
     obstaculos = [];
     dino.y = 2000;
-    dino.velocidadeY = 0;
+    dino.velocidadeY = 10;
     jogoRodando = true;
 }
 
