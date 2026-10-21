@@ -67,7 +67,7 @@ class Obstaculo {
         this.largura = 20 + Math.random() * 20; // larguras variadas
         this.altura = 30 + Math.random() * 40;  // alturas variadas
         this.y = canvas.height - this.altura - 20;
-        this.cor = '#e74c3c'; // Cor vermelha para perigo
+        this.cor = '#030202'; // Cor vermelha para perigo
     }
     
     desenhar() {
@@ -84,10 +84,10 @@ class Obstaculo {
 
 function inicializarJogo() {
     score = 0;
-    velocidade = 6;
+    velocidade = 10;
     obstaculos = [];
     dino.y = 200;
-    dino.velocidadeY = 0;
+    dino.velocidadeY = 10;
     jogoRodando = true;
 }
 
