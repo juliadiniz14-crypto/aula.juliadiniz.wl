@@ -35,7 +35,7 @@ const dino = {
         ctx.fillRect(this.x, this.y, this.largura, this.altura);
         
         // Detalhe do "olho" para dar personalidade
-        ctx.fillStyle = '#ffffff';
+        ctx.fillStyle = '#a8a5a5';
         ctx.fillRect(this.x + 25, this.y + 10, 5, 5);
     },
     
@@ -70,7 +70,7 @@ class Obstaculo {
 <<<<<<< HEAD
         this.cor = '#080808'; // Cor vermelha para perigo
 =======
-        this.cor = '#080505'; // Cor vermelha para perigo
+        this.cor = '#020101'; // Cor vermelha para perigo
 >>>>>>> e76d622d11a650dcc3481f316bd01097b5e366fa
     }
     
